@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Registration</title>
+    <script src="regis.js"></script>
+    <style>
+        form {
+            margin: 0 auto;
+            width: 400px;
+            height: 450px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(2,5,4,0.82);
+        }
+        
+        body {
+	        background-image: url(bg.jpg);
+	        background-size: 100% 100%;
+	        
+        }
+
+        h1 {
+            
+            color: dimgray;
+    
+            
+        }
+        input {
+            margin-top: 10px;
+            height: 45px;
+            width: 300px;
+            border-spacing: inherit;
+            
+            padding-left: 20px;
+            font-size: 20px;
+        
+            border: solid black 3px;
+        }
+        
+        button {
+            cursor: alias;
+            padding: 10px 30px;
+            height: 40px;
+            color: black;
+            background: #DCDC3E;
+            border: none;
+            font-size: 25px;
+            border: solid black 3px;
+            
+        }
+        
+        
+        
+        .regDiv {
+            margin: 5px;
+            padding: 5px;
+        }
+       
+        button:hover {
+            opacity: .90;
+            font-weight: bold;
+            transform: scale(1.10);
+        }
+        
+        .buttontohome{
+            margin: 0 auto;
+            background: #E67C0B  ;
+            width: 380px;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+        }
+        
+        a{
+            text-decoration: none;
+            color: black; 
+        }
+        
+        .div .mainForm {
+        	display: none;
+        }
+       
+        form {
+            background: #E67C0B;
+	        background-size: 400% 400%;
+            }
+</style>
+</head>
+<body>
+<div class="div">
+<form name="form" class="mainForm" disabled="disabled" >
+    <center><H1>Registration</H1></center>
+    <div class="regDiv">
+                  LOGIN:<input name="LOGG" id="log" SIZE=20  >
+    </div>
+   <div class="regDiv">
+                 PASSWORD:<input TYPE="password" id="parol" NAME="Pwd" SIZE=20  >
+   </div>
+  <div class="regDiv">
+                RE PASSWORD<input TYPE="password" NAME="Pwd1" SIZE=20  >
+  </div>
+ <div style="margin-top: 0px ; padding: 0px 5px;"><center>
+           
+            <button class="move"> <a href="#" >Back to login</a></button></center>
+ </div>
+</form>
+
+<form >
+    <center><H1>LOGIN</H1></center>
+    <div class="regDiv">
+                   <b>LOGIN:</b><input SIZE=20 id="login" value="" >
+    </div>
+   <div class="regDiv">
+                 <b>PASSWORD:</b><input TYPE="password" id="password" value="" SIZE=20 >
+   </div>
+  <div class="regDiv"><center>
+        
+                <button class="move"> <a href="#" >To register</a></button>
+                      </center>
+  </div>
+    </form>
+  </div>
+<center><div class="buttontohome"><center>
+          <button onClick="funcReg()">Save</button>
+          <button onclick="funcNewReg()">Login</button>
+</center></div></center>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+<script>
+    $('.move a').click(function() {
+    $('form').animate({height: "toggle"});
+
+});
+</script>
+
+
+
+
+</body>
+</html>

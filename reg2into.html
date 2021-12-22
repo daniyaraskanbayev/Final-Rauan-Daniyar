@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<style>
+       
+    form {
+            margin: 0 auto;
+            width: 800px;
+            height: 550px;
+            padding: 10px;
+            box-shadow: 3px 3px 7px rgba(2,5,4,1);
+        }
+        
+        body {
+	        background-image: url(sale.jpg);
+	        background-size: 100% 100%;
+	        
+        }
+
+        p {
+            display: inline;
+            color: brown;
+            font-size: 130%;
+    
+            
+        }
+    
+        input {
+            margin-top: 13px;
+            height: 45px;
+            width: 300px;
+            border-spacing: inherit;
+            
+            padding-left: 20px;
+            font-size: 20px;
+        
+            border: solid blue 2px;
+        }
+        
+        button {
+            cursor: alias;
+            padding: 10px 30px;
+            height: 40px;
+            color: black;
+            background-color: darkgreen;
+            border: none;
+            font-size: 25px;
+            border: solid blue 3px;
+            
+        }
+        
+        
+        
+       
+       
+        button:hover {
+            opacity: .99;
+            font-weight: bold;
+            transform: scale(1.03);
+        }
+        
+       
+        
+        a{
+            text-decoration: none;
+            color: black; 
+        }
+        
+      
+       
+        form {
+            background-color;
+	        background-size: 500% 500%;
+            }
+</style>
+</head>
+<body>
+
+<!--<p>Click the button multiple times to toggle the animation.</p>
+
+<button>Start Animation</button>
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+<div style="background:#BDB76B;height:200px;width:200px;position:absolute;" id="div1">
+  <ul>
+    <li>Toyota</li>
+    <li>Volvo</li>
+    <li>Mercedes</li>
+    <li>Jaguar</li>
+    <li>Honda</li>
+    <li>Ford</li>
+    <li>BMW</li>
+    <li>Audi</li>
+    <li>Land Rover</li>
+  </ul></div> -->
+    
+    <form  action="" method="post"  name="test" id="form">
+        <label for="name"><h2>name</h2></label>
+        <input type="text" name="name" placeholder="name" id="name" ><p>(Enter only letters)</p><br>
+        <label for="email"><h2>email</h2></label>
+        <input type="text" name="email" placeholder="email" id="email" ><p>(Example:tolegenmukan@gmail.com)</p><br>
+        <label for="password"><h2>password</h2></label>
+    <input type="password" name="password" placeholder=password ><p>(Enter only numbers (0-9) and English letters)</p><br>
+         <label for="Repassword"><h2>Repassword</h2></label>
+    <input type="password" name="Repassword" placeholder="Repassword" ><p>(Еnter password again)</p><br>
+         <span ><h2>Gender</h2></span><br>
+        <input type="radio" name="state"  id="state" value="men"><label><h3>Male</h3></label>
+        <input type="radio" name="state"  id="state" value="woman"><label><h3>Famale</h3></label><br>
+        <input type="button" onclick="funcvalid(document.getElementById('form'))" name="submit" value="OK">
+    </form>
+    
+    
+    <script src="reg2into.js"></script>
+</body>
+</html>
