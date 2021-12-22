@@ -1,0 +1,171 @@
+@media(max-width: 1200px){
+	.about__items{ 
+		display: block;}
+
+	.about__item{
+		max-width: 80%;
+		max-height: 330px;
+		margin: 30px auto ;
+
+	}
+	
+	.about__title-box,
+	.form__title-box,
+	.news__title-box
+	 {
+		padding-left: 0;
+		text-align: center;
+		margin: 0 auto 30px;
+
+	}
+	.about__title-box:before,
+	.form__title-box:before,
+	.news__title-box:before
+.form__box-inner{
+	display: none;
+
+	display:block;
+}
+.form__box-left{
+max-width: 100%;
+
+}
+.form__box-right {
+	max-width:100% ;
+}
+.advantages__inner{
+	display: block;
+}
+.advantages__item{
+	max-width: 100%;
+	margin-bottom: 30px;
+
+
+}
+.news__inner{
+	display: block;
+}
+.news__slider{
+	max-width: 100%;
+	margin-bottom: 90px;
+}
+.news__blog		{
+	max-width: 100%;
+	display: block;
+	margin-bottom: 30px;
+}
+.news__blog:after	{
+content: "";
+clear: both;
+display: block;
+}
+
+
+.news__images{
+float: left;
+margin-right: 50px;
+}
+.news{
+	padding-bottom: 60px;
+}
+.footer__info{
+	max-width: 465px;
+	margin-bottom: 25px;
+}
+}
+
+@media(max-width: 1050px){
+	.footer__inner{
+display: block;
+	}
+	.footer__map{
+		max-width: 100%;
+	}
+}
+
+
+
+@media(max-width: 900px){
+	.header__btn{
+		float: none;
+	}
+.header__contacts{
+	text-align: center;
+}
+.header__btn:before{
+	display: none;
+}
+.header__btn-menu{
+	display: block;
+}
+.menu ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+
+}
+.menu il{
+	display: block;
+}
+.menu a{
+	display: block;
+	background-color: #ffc22;
+
+	}
+	.menu li+li {
+		padding-left: 0;}
+	}
+		@media(max-width: 600px){
+	.about__items{ 
+		
+		display: block;}
+
+	.about__item{
+		max-width: 100%;
+		max-height: 700px;
+		margin: 30px auto ;
+
+	}
+}
+	.form__inner{
+		background-image: none;
+	}
+	@media(max-width: 540px){
+.news__slider{
+	padding: 50px 15px 25px 25px ;
+
+	}
+}
+		@media(max-width: 414px){
+			.slider__title{
+				font-size: 24px;
+			}
+			.slider__text{
+				font-size: 16px;
+			}
+		}
+
+@media(max-width: 400px)
+{
+	.header__btn:before{
+		display: block;
+}
+..advantages__item{
+	padding: 0;
+}
+}
+@media(max-width: 375px){
+	.header__email{
+		padding-right: 30px;
+
+	}
+
+}
+
+@media(min-width: 700px){
+	.menu ul{
+		display: block !important;
+	}
+
+}
